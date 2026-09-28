@@ -10,7 +10,7 @@ I use Python, pandas, scikit-learn, XGBoost and SHAP to turn clinical and biomed
 |---|---|---|
 | [Breast cancer survival classification](https://github.com/mukisakaweesi/breast-cancer-survival-classification) | Random Forest on 4,024 SEER patients to predict survival status, with a check for data leakage | 86.1% accuracy; age, lymph node counts and tumour size were the top predictors |
 | [Cancer drug sensitivity prediction (GDSC)](https://github.com/mukisakaweesi/gdsc-drug-sensitivity-xgboost-shap) | XGBoost regression on 242,035 drug and cell line pairs, explained with SHAP | R² 0.994, which is inflated by target leakage; I document the caveat and the fix |
-| [Diabetes hospital readmission](https://github.com/mukisakaweesi/diabetes-readmission-xgboost) | Team project on 101,766 encounters; I did the preprocessing and EDA | Tuned XGBoost reached about 65% accuracy; prior inpatient visits were the strongest predictor |
+| [Diabetes hospital readmission](https://github.com/mukisakaweesi/diabetes-readmission-xgboost) | Pilot on the public UCI dataset (101,766 encounters) for use with DHIS2 hospital data; team project where I did the preprocessing and EDA | Tuned XGBoost reached about 65% accuracy; prior inpatient visits were the strongest predictor |
 
 ## Tools
 
